@@ -7,7 +7,7 @@ import time
 chrome_driver = webdriver.Chrome()
 # opening a web url 
 chrome_driver.get("https://rahulshettyacademy.com/angularpractice/")
-time.sleep(5)
+time.sleep(3)
 
 # printing title 
 print("page title : ",chrome_driver.title)
